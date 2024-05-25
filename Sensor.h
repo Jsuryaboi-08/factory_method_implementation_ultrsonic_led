@@ -4,8 +4,7 @@
 class Sensor {
 public:
     virtual void begin() = 0;
-    virtual void display() = 0;
-    
+    virtual long readDistance() = 0;
 };
 
 #endif
